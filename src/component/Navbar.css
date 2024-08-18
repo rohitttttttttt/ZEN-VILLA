@@ -1,0 +1,40 @@
+/* Navbar.css */
+.navbar {
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #08202b; /* Background color for the navbar */
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #06ed89; /* Font color for the title */
+  }
+  
+  .search {
+    width: 250px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    gap: 2rem;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #f2f6f9; /* Font color for the links */
+  }
+  
+  ul li a:hover {
+    color: #f4f5f7; /* Font color for the links on hover */
+  }
+  
